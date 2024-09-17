@@ -1,0 +1,57 @@
+LibraChat/
+│
+├── app/
+│   ├── api/
+│   │   ├── v1/
+│   │   │   ├── __init__.py
+│   │   │   ├── server.py
+│   │   │   ├── user.py
+│   │   │   ├── message.py
+│   │   │   └── channel.py
+│   │   ├── __init__.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   ├── crypto.py
+│   │   └── security.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   ├── server.py
+│   │   ├── user.py
+│   │   ├── message.py
+│   │   └── channel.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── server.py
+│   │   ├── user.py
+│   │   ├── message.py
+│   │   └── channel.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── auth_service.py
+│   │   ├── server_service.py
+│   │   ├── user_service.py
+│   │   ├── message_service.py
+│   │   └── channel_service.py
+│   ├── activitypub/
+│   │   ├── __init__.py
+│   │   ├── actor.py
+│   │   ├── activity.py
+│   │   └── object.py
+│   ├── __init__.py
+│   ├── main.py
+│   ├── dependencies.py
+│   └── database.py
+│
+├── migrations/
+│   ├── __init__.py
+│   ├── env.py
+│   └── versions/
+│
+├── .env
+├── .gitignore
+├── alembic.ini
+├── README.md
+├── requirements.txt
+└── docs/

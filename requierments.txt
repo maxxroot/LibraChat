@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+asyncpg
+psycopg2-binary
+alembic
+pydantic-settings
+python-dotenv
+jose
+python-jose
+passlib
+fastapi_lifespan
+bcrypt==3.2.0
+pydantic[email]
+cryptography
